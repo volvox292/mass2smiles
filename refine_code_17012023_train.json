@@ -1,0 +1,203 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M-3H2O+H]+",
+          "[M-3H2O+H]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-3H2O+H]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[Cat]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[2M+NH4]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[2M+NH4]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M-H+2Na]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-H+2Na]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+2Na-H]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-H+2Na]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+H-2H2O]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-2H2O+H]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+H-3H2O]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-3H2O+H]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+H-H2O]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-H2O+H]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+H-NH3]+"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M-NH3+H]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "adduct",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "[M+NH3]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[M+NH3]+"
+      }
+    ],
+    "description": "Mass edit cells in column adduct"
+  }
+]
