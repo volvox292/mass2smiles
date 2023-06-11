@@ -6,7 +6,7 @@ Mass2smiles is an open-source Python based deep learning approach for structure 
 supplementary data with container and model at : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7883491.svg)](https://doi.org/10.5281/zenodo.7883491)
 
 ```bash {bash, echo=T, eval=F}
-# the container is available as tarball in supplementary or via docker push delser292/mass2smiles:final
+# the container is available as tarball in supplementary or via docker pull delser292/mass2smiles:final
 # The predictions can be started through this command:
 
 docker run -v c:/your_path/to_the_folder/mass2smiles/:/app  mass2smiles:transformer_v1 conda run -n tf python app/mass2smiles_transformer.py your_mgf_file.mgf /app
