@@ -1,12 +1,12 @@
 
 ![logo](https://github.com/volvox292/mass2smiles/assets/63146629/7e5b37dc-534b-4780-b310-45f197283709)
 
-Mass2smiles is an open-source Python based deep learning approach for structure and functional group prediction from mass spectrometry data (MS/MS). Spectral data can be provided as MGF files (GNPS-syle) and model inference is most effciently performed via the provided docker container.
+Mass2SMILES is an open-source Python based deep learning approach for structure and functional group prediction from mass spectrometry data (MS/MS). Spectral data can be provided as MGF files (GNPS-syle) and model inference is most effciently performed via the provided docker container.
 
 
 supplementary data with container and model at : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7883491.svg)](https://doi.org/10.5281/zenodo.7883491)
 
-the pre-print will be out soon!
+the pre-print is available at: https://doi.org/10.1101/2023.07.06.547963
 
 ```bash {bash, echo=T, eval=F}
 # the container is available as tarball in supplementary or via docker pull delser292/mass2smiles:final
