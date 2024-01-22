@@ -4,7 +4,7 @@
 Mass2SMILES is an open-source Python based deep learning approach for structure and functional group prediction from mass spectrometry data (MS/MS). Spectral data can be provided as MGF files (GNPS-syle) and model inference is most effciently performed via the provided docker container.
 
 
-supplementary data with container and model at : [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7883491.svg)](https://doi.org/10.5281/zenodo.7883491)
+supplementary data with container and model at (you must have a vaild licence for NIST): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7883491.svg)](https://doi.org/10.5281/zenodo.7883491)
 
 the pre-print is available at: https://doi.org/10.1101/2023.07.06.547963
 
