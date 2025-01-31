@@ -6,6 +6,9 @@ Mass2SMILES is an open-source Python based deep learning approach for structure 
 
 supplementary data with container and model at (you must have a vaild licence for NIST): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7883491.svg)](https://doi.org/10.5281/zenodo.7883491)
 
+recent update containing dockerfiles to build two separate containers, adjust to your needs, this Mass2SMILES model container is using GPU, the cddd does not seem to work on newer cuda drivers, therefore it is 
+ build using tensorflow cpu, but can be speed up by changing the number of cores: e.g. InferenceModel(cpu_threads=128). You need to point to your input and output dir, now the mass2smiles model is built into the container. Using this setup inference speed is highly improved.  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14778327.svg)](https://doi.org/10.5281/zenodo.14778327)
+
 the pre-print is available at: https://doi.org/10.1101/2023.07.06.547963
 
 ```bash {bash, echo=T, eval=F}
